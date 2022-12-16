@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "faust_learning"
+version = "0.1.0"
+description = "Learning kafka and faust"
+authors = ["trazola <przemyslaw.rozycki1996@gmail.com>"]
+readme = "README.md"
+packages = [{include = "faust_learning"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+faust-streaming = "^0.10.0"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^0.991"
+black = "^22.12.0"
+isort = "^5.11.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
