@@ -12,4 +12,3 @@
     docker compose --profile faust-docker up --build
     ```
 3. [Dashboard](http://localhost:8080/)
-
