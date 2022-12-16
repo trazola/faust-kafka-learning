@@ -1,6 +1,6 @@
 # Learn Faust and Kafka
 
-## How to run in docker?
+## How to run?
 
 1. Kafka docker and faust workstation
     ```bash
