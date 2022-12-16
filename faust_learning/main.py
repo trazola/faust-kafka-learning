@@ -1,6 +1,9 @@
 import faust
 
-app = faust.App(id="example_app_01", broker="kafka://kafka:9092")
+from .config import settings
+
+app = faust.App(id="example_app_01", broker=settings.kafka.SERVER)
+
 
 if __name__ == "__main__":
     app.main()

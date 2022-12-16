@@ -23,6 +23,8 @@ services:
       - zookeeper
 
   faust_app:
+    profiles:
+      - faust-docker
     build:
       context: .
       dockerfile: Dockerfile
